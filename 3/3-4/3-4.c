@@ -2,14 +2,15 @@
 
 int main()
 {
-  int i = 0, j = 0, sum = 0;
+  float won = 0.0f;
+  float dollar = 0.0f;
 
-  printf("Input two integers\n");
-  scanf("%d%d", &i, &j ); // & : ampersand
+  printf("Input Won\n");
+  scanf("%f", &won);
 
-  sum = i + j;
-
-  printf("%d plus %d = %d\n", i, j, sum);
+  dollar = won * 0.00080f;
+  
+  printf("Dollar = %f\n", dollar);
 
   return 0;
 }
